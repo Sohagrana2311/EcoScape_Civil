@@ -164,6 +164,7 @@ body{
         background-color: #2947A9;
     }
 }
+
 /* service section */
 .service-m-sec{
     margin-left: auto;
@@ -191,6 +192,16 @@ body{
     height: 140px;
     color: #fff;
     background-color: #2947A9;
+}
+/* service section midea quary */
+@media (max-width: 576px) {
+    .services-box{
+        padding: 10px 40px;
+        display: block;
+    }
+    .service-b, .service-w{
+        margin-bottom: 20px;
+    }
 }
 
 /* experience section */
@@ -282,10 +293,43 @@ body{
     color: #fff;
     background-color: #2947A9;
 }
-/* consaltation section */
-.project-sec{
-    margin: 80px;
+/* experience media quari section */
+@media (max-width: 576px) {
+    .ex-section{
+        margin-left: auto;
+        padding:20px 70px;
+        display: block;
+    }
+    .ex-value{
+        position: static;
+        margin: 0;
+        padding: 0;
+    }
+    .ex-single-value{
+        position: static;
+        margin-bottom: 10px;
+    }
+    .icon-happy{
+        position: static;
+    }
+    .icon-awards{
+        position: static;
+    }
+    .icon-busness{
+        position: static;
+       
+    }
+    .icon-project{
+        position: static;
+        }
 }
+
+
+
+
+
+/* consaltation section */
+
 .consaltation-section{
     margin-top: 50px;
     position: relative;
@@ -308,7 +352,25 @@ body{
     color: #fff;
 
 }
+
+@media (max-width: 576px) {
+    .consaltation-content{
+        position: absolute;
+        top: 0;
+        color: #fff;
+        padding: 0 10px;
+        font-size: 10px;
+    }
+    .consaltation-content button{
+        margin-left: 0px;
+        padding: 0;
+        font-size: 10px;    
+    }
+}
 /* project section */
+.project-sec{
+    margin: 80px;
+}
 
 .p-b-section{
     display: grid;
@@ -331,10 +393,7 @@ body{
     border-left: 2px solid #2947A9;
     padding-left: 5px;
 }
-.s-project img{
-    margin: 0;
-    padding: 0;
-}
+
 .img-title{
     margin-top: -6px;
     padding:14px;
@@ -368,6 +427,41 @@ body{
 .r-btn{
     margin-left: 90px;
 }
+
+/* project section media quary */
+@media (max-width: 576px) {
+    .project-sec{
+        margin: 0px;
+    }
+    .project-h1{
+        text-align: center;
+    }
+    .p-b-section{
+        display: block;
+    } 
+    .t-project{
+        display: block;
+    }
+    .s-project{
+        margin-bottom: 25px;
+    }
+    .r-btn, .l-btn{
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .s-project img{
+        width: 360px;
+    }
+    .img-title{
+        width: 332px;
+
+    }
+    
+}
+
+
+
 /* contact from */
 .conctact-from{
     text-align: center;
@@ -397,6 +491,17 @@ body{
     border: none;
     border-radius: 2px;
 }
+
+/* contact from media quary */
+@media (max-width: 576px) {
+    .message-feild{
+        width: 275px;
+        height: 100px;
+    }
+    .conctact-from{
+        margin-top: 50px;
+    }
+}
 /* footer section */
 .footer{
     margin: 100px 15%;
@@ -425,13 +530,25 @@ body{
     border:1px solid #C2C7D6 ;
     border-radius: 5px;
 }
+@media (max-width: 576px) {
+    .footer{
+        margin: 100px 15%;
+        display: block;
+    }
+    .btm-footer{
+        margin-top: 10px;
+    }
+
+}
 /* copywrite section */
 .copywrite-sec{
+    padding-top: 22px;
+    text-align: center;
     width: 100%;
-    padding: 25px 0 0 50px;
     height: 45px;
     background-color: #2947A9;
     color: #fff;
 }
+
 
 
