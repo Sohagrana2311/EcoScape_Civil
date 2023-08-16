@@ -36,6 +36,36 @@ body{
     color: #F9995D;
 
 }
+.menu-bar{
+    display: none;
+}
+
+/* media quari */
+@media (max-width: 576px) { 
+    .header-sec{
+        height: 50px;
+    }
+    .ancor-sec{
+       display: none;
+    }
+    .company-name{
+        margin: 0;
+    }
+    .logo-sec img{
+        width: 28px;
+        height: 33.5px;
+        margin-right: 10px ;
+        padding-left: 20px ;
+    }
+    .menu-bar{
+        margin-right: 20px;
+        display: block;
+    }
+ }
+
+
+
+
 .m-banner img{
     width: 100%;
 }
@@ -66,6 +96,28 @@ body{
     font-size: 40px;
 }
 
+
+/* repotation media quarary */
+@media (max-width: 576px) { 
+    .repo-sec{
+        padding: 15px 15px;
+
+    }
+    .repo-div{
+        
+        display: block;
+        padding-top: 2px;
+        
+    }
+    .Service{
+        margin: 20px auto;
+    }
+   
+}
+
+
+
+
 /* about us section */
 .about-us{
     padding: 80px;
@@ -92,7 +144,26 @@ body{
     margin-top: 150px;
 }
 
-
+/* contact us media quary */
+@media (max-width: 576px) {
+    .about-us{
+        margin: 0;
+        padding-left: 40px;
+        position:static;
+    }
+    .about-img{
+        width: 110%;
+    }
+    
+    .about_us_content{
+        position: static;
+        padding: 30px;
+        width:90%;
+        height: auto;
+        color: white;
+        background-color: #2947A9;
+    }
+}
 /* service section */
 .service-m-sec{
     margin-left: auto;
@@ -362,3 +433,5 @@ body{
     background-color: #2947A9;
     color: #fff;
 }
+
+
