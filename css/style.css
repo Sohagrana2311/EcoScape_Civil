@@ -2,6 +2,10 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+.company-name{
+    color: #2947A9;
+    margin-left: 10px;
+}
 .d-flex{
     display: flex;
     align-items: center;
@@ -135,12 +139,12 @@ body{
     position: relative;
 }
 .ex-single-value p{
+    font-weight: 900;
     margin-left: 5px;
     padding-left: 5px;
     border-left: 3px solid #F9995D;
 }
-.ex-single-value h1, p{
-    font-weight: 900;
+.ex-single-value h1{ 
     margin: 0;
 }
 
@@ -208,7 +212,9 @@ body{
     background-color: #2947A9;
 }
 /* consaltation section */
-
+.project-sec{
+    margin: 80px;
+}
 .consaltation-section{
     margin-top: 50px;
     position: relative;
@@ -230,4 +236,129 @@ body{
     border: 1px solid #fff;
     color: #fff;
 
+}
+/* project section */
+
+.p-b-section{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.side-bar{
+    padding-left: 50px;
+}
+
+
+.side-bar a{
+    line-height: 30px;
+    display: block;
+    text-decoration: none;
+    color: #C2C7D6;
+}
+.side-bar span{
+    color: #2947A9;
+    font-weight: bold;
+    border-left: 2px solid #2947A9;
+    padding-left: 5px;
+}
+.s-project img{
+    margin: 0;
+    padding: 0;
+}
+.img-title{
+    margin-top: -6px;
+    padding:14px;
+    font-weight: 200;
+    background-color: #2947A9;
+    color: #fff;
+    width: 356px;
+    height: 70px;
+}
+.img-title h2{
+    margin: 0 0 4px 0;
+}
+.t-project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+.project-btn button{
+    width: 295px;
+    height: 64px;
+    background-color: #14171F;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+   
+}
+.fa-p{
+    margin-right: 5px;
+    font-size: 20px;
+}
+.r-btn{
+    margin-left: 90px;
+}
+/* contact from */
+.conctact-from{
+    text-align: center;
+}
+.input-feild{
+    padding: 5px;
+    font-size: large;
+    width: 275px;
+    height: 25px;
+    border:1px solid #C2C7D6 ;
+    border-radius: 5px;
+    margin: 10px;
+}
+.message-feild{
+    padding: 5px;
+    font-size: large;
+    width: 587px;
+    height: 135px;
+    border:1px solid #C2C7D6 ;
+    border-radius: 5px;
+    margin: 10px;
+}
+.submit{
+    padding: 15px 100px;
+    background-color: #2947A9;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+/* footer section */
+.footer{
+    margin: 100px 15%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.socail-icon{
+    font-size: 25px;
+    border-radius: 50%;
+    margin-right: 20px;
+    color: #14171F;
+}
+.btm-footer{
+    background-color: #F9995D;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    color: #fff;
+}
+.footer-input{
+    padding: 5px;
+    font-size: large;
+    width: 200px;
+    height: 25px;
+    border:1px solid #C2C7D6 ;
+    border-radius: 5px;
+}
+/* copywrite section */
+.copywrite-sec{
+    width: 100%;
+    padding: 25px 0 0 50px;
+    height: 45px;
+    background-color: #2947A9;
+    color: #fff;
 }
